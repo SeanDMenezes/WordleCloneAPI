@@ -38,6 +38,7 @@ wordleRoutes.get("/isValidWord/:word", async (req, res) => {
         const isValid = await isValidWord(word);
         res.json(isValid);
     } catch (err) {
+        console.log(err);
         res.json({ error: err });
     }
 });
