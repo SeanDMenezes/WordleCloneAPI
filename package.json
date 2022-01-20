@@ -4,7 +4,7 @@
   "description": "Backend for Wordle web application",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon index.js"
   },
   "author": "Sean Menezes",
   "license": "ISC",
