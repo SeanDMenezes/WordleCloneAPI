@@ -8,8 +8,8 @@ const cors = require("cors");
 const server = http.createServer(app);
 const port = process.env.PORT || 5000;
 
-const wordleRoutes = require("./routes/wordleRoutes");
-const challengeRoutes = require("./routes/challengeRoutes");
+const wordleRoutes = require("./src/routes/wordleRoutes");
+const challengeRoutes = require("./src/routes/challengeRoutes");
 
 // middleware
 app.use(bodyParser.json());
